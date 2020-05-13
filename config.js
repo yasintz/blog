@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Starter Blog',
     author: {
-      name: 'Kyle Mathews',
+      name: 'Yasin Tazeoğlu',
       summary: 'who lives and works in San Francisco building useful things.',
     },
     description: 'A starter blog demonstrating what Gatsby can do.',
@@ -20,6 +20,6 @@ module.exports = {
     background_color: '#ffffff',
     theme_color: '#663399',
     display: 'minimal-ui',
-    icon: 'content/assets/gatsby-icon.png',
+    icon: 'content/assets/page-icon.png',
   },
 };

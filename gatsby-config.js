@@ -24,7 +24,18 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-highlight-code',
+            resolve: 'gatsby-remark-better-embed-video',
+            options: {
+              related: false, // Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, // Optional: Disable insertion of <style> border: 0.
+              showInfo: false, // Optional: Hides video title and player actions.
+            },
+          },
+          {
+            resolve: 'gatsby-remark-vscode',
+            options: {
+              theme: 'Monokai',
+            },
           },
           {
             resolve: 'gatsby-remark-images',
@@ -32,6 +43,7 @@ module.exports = {
               maxWidth: 590,
             },
           },
+
           {
             resolve: 'gatsby-remark-responsive-iframe',
             options: {
