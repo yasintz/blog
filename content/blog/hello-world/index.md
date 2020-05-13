@@ -2,6 +2,7 @@
 title: Hello World
 date: '2015-05-01T22:12:03.284Z'
 description: 'Hello World'
+spoiler: 'A salted duck egg is a Chinese preserved food product made by soaking duck'
 ---
 
 ```js

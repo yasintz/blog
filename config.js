@@ -22,4 +22,8 @@ module.exports = {
     display: 'minimal-ui',
     icon: 'content/assets/page-icon.png',
   },
+  supportedLanguages: {
+    en: 'English',
+    tr: 'Türkçe',
+  },
 };
